@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900;
+}
+
+input {
+  @apply bg-gray-800 border-gray-700 text-gray-100 !important;
+}
+
+input::placeholder {
+  @apply text-gray-500;
+}
